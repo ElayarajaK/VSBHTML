@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       
+        .one{
+          
+            border: 1px solid blueviolet;
+        }
+        .two{
+            
+            border: 1px solid blueviolet;
+        }
+        .thr{
+           
+            border: 1px solid blueviolet;
+        }
+        .fr{
+            border: 1px solid blueviolet;
+        }
+        .fv{
+            border: 1px solid blueviolet;
+        }
+        .six{
+            border: 1px solid blueviolet;
+        }
+        .sv{
+            border: 1px solid blueviolet;
+        }
+        .et{
+            border: 1px solid blueviolet;
+        }
+        .nn{
+            border: 1px solid blueviolet;
+        }
+        .tn{
+            border: 1px solid blueviolet;
+        }
+        .ll{
+            border: 1px solid blueviolet;
+        }
+        .tl{
+            border: 1px solid blueviolet;
+        }
+        .ttn{
+            border: 1px solid blueviolet;
+        }
+        @media(max-width:1000px) {
+            body{
+                background-color: red;
+            }
+            .wrapper{
+                grid-template-columns:repeat(3,1fr);
+            }
+            
+        }
+        @media (max-width:500px) {
+            body{
+                background-color: rgb(133, 183, 31);
+            }
+            .wrapper{
+                grid-template-columns:repeat(2,1fr);
+            }
+            
+        }
+        .wrapper{
+            display: grid;
+            grid-template-columns:repeat(6,1fr);
+            column-gap: 3px;
+            row-gap: 3px;
+
+        }
+
+       
+    </style>
+</head>
+<body>
+    
+
+    <div class="wrapper">
+        <div class="one">&nbsp; 1</div>
+        <div class="two">&nbsp; 2</div>
+        <div class="thr">&nbsp; 3</div>
+        <div class="fr">&nbsp; 4</div>
+        <div class="fv">&nbsp; 5</div>
+        <div class="six">&nbsp;6</div>
+        <div class="sn">&nbsp;7</div>
+        <div class="et">&nbsp;8</div>
+        <div class="nn">&nbsp;9</div>
+        <div class="tn">&nbsp;10</div>
+        <div class="tl">&nbsp;11</div>
+        <div class="ttn">&nbsp;12</div>
+
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <form method="get">
+        <div>
+            <label for="">
+                First Name
+            </label>
+            <input type="text" name="fname"  required/>
+        </div>
+        <br/>
+        <div>
+          
+            <input type="hidden" name="sname" value="apj" />
+        </div>
+        <br/>
+        <div>
+            <label for="">
+                Password
+            </label>
+            <input type="password" name="pass" required/>
+        </div>
+        <br/>
+        <div>
+            <label for="">
+                Email
+            </label>
+            <input type="email" name="fname" required/>
+        </div>
+
+        <br/>
+    <div>
+        <div>
+           
+            <input type="radio" name="graduation"   checked/>
+            <label>Engineering </label>
+        </div>
+       
+        <div>
+            
+            <input type="radio" name="graduation" />
+            <label>Arts and Science</label>
+        </div>
+        <div>
+           
+            <input type="radio" name="graduation" min="10000"  />
+            <label>Pharma</label>
+        </div>
+    </div>
+
+    <div>
+        <h1>Special subject</h1>
+        <div>
+           
+            <input type="checkbox" name="subjects"   checked/>
+            <label>Python with AI </label>
+        </div>
+       
+        <div>
+            
+            <input type="checkbox" name="subjects" />
+            <label>JFS</label>
+        </div>
+        <div>
+           
+            <input type="checkbox" name="subjects" min="10000"  />
+            <label>Data Analytics</label>
+        </div>
+        <div>
+           
+            <input type="checkbox" name="subjects" min="10000"  />
+            <label>DS</label>
+        </div>
+    </div>
+    <br/>
+    <div>
+        <label>DOB : </label>
+           
+        <input  type="datetime-local" />
+       
+    </div>
+
+    <br/>
+
+    <input type="text" list="collegelist"/>
+    <datalist id="collegelist">
+        <option value="Anna Univ">AnnaUniv</option>
+        <option value="IIT">IIT</option>
+        <option value="Thiruvalluvar Univ">Thiruvalluvar Univ</option>
+        <option value="Medras Univ">Medras Univ</option>
+        <option value="Annamalai">Annamailai</option>
+        <option value="Anna Univ">AnnaUniv</option>
+    </datalist>
+    <br/>
+    <span>Meter</span>
+    <meter high="80" low="30" min="0" max="100" value="50" style="width: 50%; height: 80px;"> </meter> 
+    <br/>
+    <progress max="100" value="40"></progress><span>60%</span>
+    <br/>
+    <input type="range" value="" min="0" max="500" step="50">
+    <br/>
+    <fieldset>
+        <legend>Rules </legend>
+        <details>
+            <summary>Wht is what</summary>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum ullam commodi laboriosam harum doloremque, maxime impedit exercitationem magnam saepe officia, cum quod perspiciatis? Alias porro tenetur ducimus sit earum sunt?    
+        </details>
+        <details>
+            <summary>Wht is what1</summary>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum ullam commodi laboriosam harum doloremque, maxime impedit exercitationem magnam saepe officia, cum quod perspiciatis? Alias porro tenetur ducimus sit earum sunt?    
+        </details>
+        <details>
+            <summary>Wht is what2</summary>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum ullam commodi laboriosam harum doloremque, maxime impedit exercitationem magnam saepe officia, cum quod perspiciatis? Alias porro tenetur ducimus sit earum sunt?    
+        </details>
+
+    </fieldset>
+
+    <br/>
+    <input type="file" name="" placeholder="Upload files"  > 
+    <div>
+           
+            <input type="submit" />
+        </div>
+    <textarea cols="100" rows="5" maxlength="500"></textarea>
+
+    <select>
+        <option>firefox</option>
+        <option>chrome</option>
+        <option>Edge</option>
+    </select>
+    </form>
+
+
+
+    
+</body>
+</html>

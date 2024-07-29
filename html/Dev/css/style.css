@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(238, 246, 248);
+   
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.box{
+    margin: 4%;
+
+    border-left: 10px solid red;
+    border-top: 10px dotted red;
+    border-bottom: 10px dashed green;
+    border-right: 10px double green;
+
+    padding: 5%;
+
+
+}
+
+
+h1{/
+    border: 1px solid green;
+}
+#btn{
+position: absolute;
+}
+#badge{
+    position: relative;
+    background-color: red;
+    color: aquamarine;
+    border-radius: 50%;
+    border: 2px solid black;
+    
+    font-family: 'Times New Roman', Times, serif;
+    left: 14%;
+    
+}

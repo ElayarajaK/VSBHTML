@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--
+        1. SVG
+        2. Canvas
+        3. sessionStorage
+        4. localStorage
+        5. CatchMemmorys
+        6. A&V
+        7. SSE
+        8. geolocation
+        9. Grag & Drop
+        10.Webworkers
+    
+    -->
+    
+    <div >
+        <svg style="height: 300; width: 300; border:2px solid green">
+            <rect x="10" y="0" height="200" width="200" style="fill: blue;"></rect>
+
+            <line x1="10"y1="10" x2="300" y2="300" style="fill: red; stroke: red;"></line>
+
+            <circle cx="150"  cy="150" r="60" style="fill: yellow; stroke: black;"></circle>
+        
+        </svg>
+    </div>
+
+    <iframe width="560" height="315" 
+    src="https://www.youtube.com/embed/--8ORixBXQE?si=BH_Q7AZ_i_8FpDSh" 
+    title="YouTube video player" frameborder="0"
+     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <script>
+        //localStorage.setItem("name","raja");
+        let name = localStorage.getItem("name")
+        alert(name)
+
+        sessionStorage.setItem("address","chennai")
+        let getAddress = sessionStorage.getItem("address")
+        alert("sessionStorage",name)
+        
+        navigator.geolocation.getCurrentPosition(success,error);
+        console.log(err)
+        function success(pos){
+            alert("from fun")
+            alert(pos.coords.latitude)
+        }
+
+
+    </script>
+</body>
+</html>
